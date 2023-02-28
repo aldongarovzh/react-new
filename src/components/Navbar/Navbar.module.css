@@ -19,3 +19,7 @@
 .active {
     background-color: gold;
 }
+
+.item .active {
+    color: gold;
+}
