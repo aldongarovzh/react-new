@@ -1,8 +1,21 @@
 .nav {
     grid-area: n;
-    background-color: burlywood;
+    background-color: orange;
 }
 
-.item {
-    color: white;
+.item a {
+    text-decoration: none;
+}
+/*.item a:focus {*/
+/*    color: red;*/
+/*    background-color: gold;*/
+/*}*/
+
+.item a.active {
+    color: gold;
+    background-color: gold;
+}
+
+.active {
+    background-color: gold;
 }
