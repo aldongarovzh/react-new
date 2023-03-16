@@ -1,6 +1,6 @@
 .dialogs {
     display: grid;
-    grid-template-columns: 2fr 10fr;
+    grid-template-columns: 2fr 5fr;
 }
 
 .dialogsItems {
@@ -18,8 +18,22 @@
 
 .messages {
     padding: 10px;
+    text-align: center;
+    line-height: 3.3;
 }
 
 .messages .message {
     color: white;
+}
+
+.avatarMain {
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    align-items: center;
+}
+
+.avatar img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
