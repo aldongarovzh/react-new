@@ -23,3 +23,12 @@
 .item .active {
     color: gold;
 }
+
+
+.itemFriends {
+    font-size: 35px;
+}
+
+.itemFriends a {
+    text-decoration: none;
+}

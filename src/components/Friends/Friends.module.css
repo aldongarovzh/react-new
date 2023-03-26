@@ -1,0 +1,20 @@
+.mainFriends {
+    display: inline-grid;
+}
+
+.imgFriends img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+}
+
+.nameFriends {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.returnFriends {
+    position: absolute;
+    margin-top: 200px;
+}
